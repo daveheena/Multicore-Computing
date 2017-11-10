@@ -1,0 +1,108 @@
+****************************************
+Printing memory block:
+{w=50, x=20, y=30, z=100}
+****************************************
+Reading variable x from Processor1:
+Performing read operation by Processor1
+The value of variable x is:20
+Block in Processor1:{x=20, y=30, z=100, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: S
+Processor2: I
+Processor3: I
+Processor4: I
+****************************************
+Reading variable x from Processor2:
+Performing read operation by Processor2
+The value of variable x is:20
+Block in Processor2:{x=20, y=30, z=100, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: S
+Processor2: S
+Processor3: I
+Processor4: I
+****************************************
+Write variable x = 150 from Processor3:
+The new value of variable x is:150
+Block in Processor3:{x=150, y=30, z=100, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: I
+Processor2: I
+Processor3: M
+Processor4: I
+****************************************
+Reading variable x from Processor2:
+Performing read operation by Processor2
+The value of variable x is:150
+Block in Processor2:{x=150, y=30, z=100, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: I
+Processor2: S
+Processor3: S
+Processor4: I
+****************************************
+Write variable z = 500 from Processor1:
+The new value of variable z is:500
+Block in Processor1:{x=150, y=30, z=500, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: M
+Processor2: I
+Processor3: I
+Processor4: I
+****************************************
+Write variable y = 10 from Processor2:
+The new value of variable y is:10
+Block in Processor2:{x=150, y=10, z=500, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: I
+Processor2: M
+Processor3: I
+Processor4: I
+****************************************
+Reading variable x from Processor3:
+Performing read operation by Processor3
+The value of variable w is:50
+Block in Processor3:{x=150, y=10, z=500, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: I
+Processor2: S
+Processor3: S
+Processor4: I
+****************************************
+Reading variable x from Processor2:
+Performing read operation by Processor2
+The value of variable x is:150
+Block in Processor2:{x=150, y=10, z=500, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: I
+Processor2: S
+Processor3: S
+Processor4: I
+****************************************
+Reading variable x from Processor1:
+Performing read operation by Processor1
+The value of variable w is:50
+Block in Processor1:{x=150, y=10, z=500, w=50}
+****************************************
+Print cache statuses for all processors:
+Printing processor cache block status
+Processor1: S
+Processor2: S
+Processor3: S
+Processor4: I
